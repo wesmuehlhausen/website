@@ -168,14 +168,29 @@ p {
   border: 1px solid rgb(150, 12, 12);
 }
 
-#deep-space-button:hover{
-  background-image: url('imgs/gif.gif');
+#deep-space-button{
+  background-image: url('imgs/game-screenshot.png');
   background-position: center center;
-  color: rgba(0,0,0,0);
   background-size: cover;
 }
 
+#deep-space-button:hover{
+  background-image: url('imgs/gif.gif');
+  background-position: center center;
+  background-size: cover;
+}
 
+#cholera-button{
+  background-image: url('imgs/cholera-img.png');
+  background-position: center center;
+  background-size: cover;
+}
+
+#cholera-button:hover{
+  background-image: url('imgs/cholera-gif.gif');
+  background-position: center center;
+  background-size: cover;
+}
 
 
 .proj-img{
