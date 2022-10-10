@@ -161,10 +161,21 @@ p {
 
 .proj-block:hover {
   /* background-color: rgba(34, 34, 34, .85); */
+  
+
   background-image: linear-gradient(rgba(34, 34, 34, .40), rgba(34, 34, 34, 1));
   transition: all 0.5s ease-in;
   border: 1px solid rgb(150, 12, 12);
 }
+
+#deep-space-button:hover{
+  background-image: url('imgs/gif.gif');
+  background-position: center center;
+  color: rgba(0,0,0,0);
+  background-size: cover;
+}
+
+
 
 
 .proj-img{
